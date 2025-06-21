@@ -86,9 +86,9 @@ generateBtn.addEventListener('click', async function() {
     let inviteLink;
     
     if (botType === 'join-bot') {
-        inviteLink = `https://discord.com/oauth2/authorize?client_id=${clientId}&permissions=2147503232&scope=bot%20applications.commands`;
+        inviteLink = `https://discord.com/oauth2/authorize?client_id=${clientId}&permissions=19456&scope=bot%20applications.commands`;
     } else {
-        inviteLink = `https://discord.com/oauth2/authorize?client_id=${clientId}&permissions=2415922176&scope=bot%20applications.commands`;
+        inviteLink = `https://discord.com/oauth2/authorize?client_id=${clientId}&permissions=268438528&scope=bot%20applications.commands`;
     }
     
     currentInviteLink = inviteLink;
